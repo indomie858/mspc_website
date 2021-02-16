@@ -9,57 +9,96 @@
 
 <body>
     <header>
-        <h1>Michael Scott Paper Company</h1>
-        <h2>Home</h2>
+        <img src="images/mspc_logo.png" style="width:25%;" alt="Michael Scott Paper Company Logo" />
         <nav>
-            <ul>
-                <li><a href="index.html" title="Michael Scott Paper Company Home Page">Home</a></li>
-                <li><a href="about.html" title="About the Company">About Us</a></li>
-                <li><a href="careers.html" title="Career Opportunities">Careers</a></li>
-                <li><a href="invest.html" title="Investor Home">Invest</a></li>
-            </ul>
+            <a class="active" href="index.html" title="Michael Scott Paper Company Home Page">Home</a>
+            <a href="about.html" title="About the Company">About Us</a>
+            <a href="careers.html" title="Career Opportunities">Careers</a>
+            <a href="invest.html" title="Investor Home">Invest</a>
         </nav>
+        <h1>Home</h1>
         <!-- Add hero image for website. We can use a table maybe-->
     </header>
     <main>
         <p>Here at Michael Scott Paper Company Inc, we're here to serve you for any paper or business related needs.
             Nobody can beat our prices or our service!</p>
         <!-- Featured products section -->
-        <h3>Featured Products</h3>
-        <table style="width: 100%;">
-            <tr>
-                <th>Paper</th>
-                <th>Pencils</th>
-                <th>More Paper</th>
-                <th>Cheese Balls</th>
-            </tr>
-            <tr>
-                <td><img src="images/paper.jpg" alt="Unopened box of multipurpose copy paper" style="max-width: 100%;"></td>
-                <td><img src="images/white_pencils.jpg" alt="10 white colored pencils lined up in two rows" style="max-width: 100%;"></td>
-                <td><img src="images/paper_stack.jpg" alt="Stack of paper in a black box" style="max-width: 100%;"></td>
-                <td><img src="images/cheese_balls.jpg" alt="Jar of Herr's Cheese Balls" style="max-width: 100%;"></td>
-            </tr>
-        </table>
+        <div id="products">
+            <h2>Featured Products</h2>
+            <table id="productsTable">
+                <tr>
+                    <th>Paper</th>
+                    <th>Pencils</th>
+                    <th>More Paper</th>
+                    <th>Cheese Balls</th>
+                </tr>
+                <tr>
+                    <td><img src="images/paper.jpg" alt="Unopened box of multipurpose copy paper"
+                            style="max-width: 100%;" />
+                    </td>
+                    <td><img src="images/white_pencils.jpg" alt="10 white colored pencils lined up in two rows"
+                            style="max-width: 100%;" /></td>
+                    <td><img src="images/paper_stack.jpg" alt="Stack of paper in a black box"
+                            style="max-width: 100%;" /></td>
+                    <td><img src="images/cheese_balls.jpg" alt="Jar of Herr's Cheese Balls" style="max-width: 100%;" />
+                    </td>
+                </tr>
+            </table>
+        </div>
         <!-- As seen on section -->
-        <h3>As Seen On</h3>
-        <table style="width: 100%;">
-            <tr>
-                <th>Scranton Times</th>
-                <th>GoLackawanna</th>
-                <th>Barbara Keevis Investment Club</th>
-            </tr>
-            <tr>
-                <td><img src="images/scranton_times_logo.jpg" alt="Scranton Times Logo" style="max-width: 100%;"></td>
-                <td><img src="images/go_lackawanna.jpg" alt="Go Lackawanna Logo" style="max-width: 100%; width:50%;"></td>
-                <td><img src="images/Michaelgrandma.jpg" alt="Michael Scott's grandma with a look of disapproval" style="max-width: 100%; width:70%;"></td>
-            </tr>
-        </table>
+        <div id="asSeenOn">
+            <h2>As Seen On</h2>
+            <table id="asSeenOnTable">
+                <tr>
+                    <th>Scranton Times</th>
+                    <th>GoLackawanna</th>
+                    <th>Barbara Keevis Investment Club</th>
+                </tr>
+                <tr>
+                    <td><img src="images/scranton_times_logo.jpg" alt="Scranton Times Logo" style="max-width: 100%;" />
+                    </td>
+                    <td><img src="images/go_lackawanna.jpg" alt="Go Lackawanna Logo"
+                            style="max-width: 100%; width:50%;" />
+                    </td>
+                    <td><img src="images/Michaelgrandma.jpg" alt="Michael Scott's grandma with a look of disapproval"
+                            style="max-width: 100%; width:70%;" /></td>
+                </tr>
+            </table>
+        </div>
         <!-- Testimonials section -->
-        <h3>Testimonials</h3>
-        <!-- Recent news section -->
-        <h3>Recent News</h3>
+        <div id="testimonials">
+            <h2>Testimonials</h2>
+            <table id="testimonialsTable">
+                <tr>
+                    <th>
+                        Dr. Crentist, DDS
+                    </th>
+                    <td>&quot;Oh yeah! I love the Michael Scott Paper Company. Ever since Dwight Schrute lied about
+                        coming to my dentistry, I became great friends with Michael Scott. The provide office supplies
+                        at an excellent price and the premium service to go along with it. I'm not sure how they do it,
+                        but who cares&#33;&quot;</td>
+                </tr>
+                <tr>
+                    <th>
+                        Moze Schrute
+                    </th>
+                    <td>
+                        &quot;Yes.&quot;
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Vikram
+                    </th>
+                    <td>
+                        &quot;You know what Michael? You want to succeed? You need to apply the same level of...&quot; <br>&#40;Michael shut the door before I could hear the rest of Vikram's sentence. I don't know why he still wants me to put his quote here. -Pam&#41;
+                    </td>
+                </tr>
+            </table>
+        </div>
     </main>
     <footer>
+        <hr />
         <p>Michael Scott Paper Company is a wholly owned subsidiary by Michael Scott. Yes, Michael made me write this in
             our company description. Please save me... Sincerely, Pam Beesley</p>
     </footer>

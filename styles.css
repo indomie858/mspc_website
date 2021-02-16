@@ -4,22 +4,74 @@
     display: block;
 } */
 
-td, th {
+table {
+    width:100%;
+    margin:10px;
+}
+
+h2, h3 {
     text-align: center;
 }
 
 body {
     max-width:960px;
+    font-family: Helvetica, sans-serif;
+    margin:auto;
+    padding:20px;
+    background-color: #f7f7aa;
 }
 
 header {
-    width:100%
+    width:100%;
 }
 
 main {
-    width:100%
+    width:100%;
 }
 
 footer {
-    width:100%
+    width:100%;
+}
+
+/* Reference for top navigation bar styling https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* Styling for nav bar*/
+nav {
+    overflow: hidden;
+    background-color: #b3b3b3;
+}
+/* Styling for nav bar links */
+nav a{
+    color: black;
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+/* styling for when mouse hovers over menu item */
+nav a:hover {
+    background-color: #bebebe;
+    color: black;
+}
+/* styling for active nav element */
+nav a.active {
+    background-color: #a50000;
+    color: white;
+}
+/* end of nav bar styling */
+
+#products, #asSeenOn, #testimonials {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#productsTable, #asSeenOnTable {
+    text-align: center;
+}
+
+#testimonialsTable {
+    text-align:left;
+}
+
+#testimonialsTable th, #testimonialsTable td{
+    padding:20px;
 }
