@@ -1,0 +1,25 @@
+/* header {
+    background-image: url("images/office-desk-banner.jpg");
+    background-size: 100%;
+    display: block;
+} */
+
+td, th {
+    text-align: center;
+}
+
+body {
+    max-width:960px;
+}
+
+header {
+    width:100%
+}
+
+main {
+    width:100%
+}
+
+footer {
+    width:100%
+}
