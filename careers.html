@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <!-- Careers page -->
 <html>
-    <head>
-        <title>Careers - Michael Scott Paper Company</title>
-    </head>
-    <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </body>
+
+<head>
+    <title>Careers - Michael Scott Paper Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Careers</h1>
+        <img src="images/mspc_logo.png" style="width:25%;" alt="Michael Scott Paper Company Logo" />
+        <nav>
+            <a href="index.html" title="Michael Scott Paper Company Home Page">Home</a>
+            <a href="about.html" title="About the Company">About Us</a>
+            <a class="active" href="careers.html" title="Career Opportunities">Careers</a>
+            <a href="invest.html" title="Investor Home">Invest</a>
+        </nav>
+        <!-- Add hero image for website. -->
+    </header>
+    <main>
+        <h2>Join the Michael Scott Paper Company Today&#33;</h2>
+        <!-- form reference: https://www.w3schools.com/html/html_forms.asp -->
+        <!-- I used the form element to make a job application form-->
+        <form id="jobApplicationForm">
+            <!-- input type Reference: https://www.w3schools.com/html/html_form_input_types.asp -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            
+            <label for="email">Email address:</label><br>
+            <input type="email" id="email" name="email"><br>
+            
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+            <label for="resumecv">Resume&#47;CV</label><br>
+            <input type="file" id="resumecv" name="resumecv"><br>
+
+            <label for="essay">Tell us about yourself &#40;Interests, Goals, Hobbies, etc&#41;</label><br>
+            <textarea id="essay" name="essay"></textarea>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
 </html>

@@ -6,7 +6,6 @@
 
 table {
     width:100%;
-    margin:10px;
 }
 
 h2, h3 {
@@ -31,6 +30,7 @@ main {
 
 footer {
     width:100%;
+    font-size: 14px;
 }
 
 /* Reference for top navigation bar styling https://www.w3schools.com/howto/howto_js_topnav.asp */
@@ -59,7 +59,7 @@ nav a.active {
 }
 /* end of nav bar styling */
 
-#products, #asSeenOn, #testimonials {
+#products, #asSeenOn, #testimonials, #ourTeam{
     margin-top: 75px;
     margin-bottom: 75px;
 }
@@ -68,14 +68,29 @@ nav a.active {
     text-align: center;
 }
 
-#testimonialsTable {
+#testimonialsTable, #ourTeamTable {
     text-align:left;
 }
 
-#testimonialsTable th, #testimonialsTable td{
+#testimonialsTable th, #testimonialsTable td, #ourTeamTable th, #ourTeamTable td{
     padding:20px;
 }
 
 #testimonialsTable td {
     font-style: italic;
+}
+
+.employeeImg {
+    width:100%;
+    min-width: 150px;
+}
+
+.productImg {
+    max-width: 100%;
+}
+
+.asSeenImg {
+    max-width: 100%;
+    min-width: 150px;
+    width: 50%;
 }
