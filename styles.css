@@ -75,3 +75,7 @@ nav a.active {
 #testimonialsTable th, #testimonialsTable td{
     padding:20px;
 }
+
+#testimonialsTable td {
+    font-style: italic;
+}
