@@ -9,6 +9,7 @@ table {
 }
 
 h1 {
+    font-style: italic;
     font-size: 50px;
     text-align: center;
     background-image: url("images/office-desk-banner.jpg");
