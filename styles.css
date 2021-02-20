@@ -127,6 +127,28 @@ nav a.active {
     margin:25px;
 }
 
+#michaelImg {
+    width:100%;
+}
+
+#whyInvestImg {
+    width: 100%;
+}
+
+/* Reference for button styling */
+#whyInvestButton {
+    border: none;
+    background-color: #a50000;
+    color:#ffffff;
+    padding: 15px 25px;
+    text-align: center;
+    font-size:15px;
+}
+
+#ourTeamTable th {
+    margin-right:100px;
+}
+
 .mspcImg {
     width:100%;
 }
