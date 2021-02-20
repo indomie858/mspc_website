@@ -28,7 +28,7 @@ h2, h3{
 
 body {
     max-width:920px;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f7f7aa;
     margin:auto;
     line-height: 1.6;
@@ -77,11 +77,20 @@ nav a.active {
 /* end of nav bar styling */
 
 .bodycontent{
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
-#heroimage {
+#homepageImg {
+    width:100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top:10px;
+}
+
+#forestImg {
     width:100%;
 }
 
@@ -103,6 +112,16 @@ nav a.active {
 
 #companyFooter {
     font-weight: bold;
+}
+
+#ceoStatement {
+    display: block;
+    width:75%;
+    margin: auto;
+}
+
+.mspcImg {
+    width:100%;
 }
 
 .companylogo {
