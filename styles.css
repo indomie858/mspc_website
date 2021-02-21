@@ -81,8 +81,8 @@ nav a.active {
     margin-bottom: 50px;
     padding-top:10px;
     padding-bottom:10px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #homepageImg {
@@ -116,9 +116,14 @@ nav a.active {
     font-weight: bold;
 }
 
-#ceoStatement, #market, #overview, #whyInvest, #ourMission, #benefits, #opportunities, #jobApplication {
+#ceoStatement, #market, #overview, #whyInvest, #ourMission, #benefits, #opportunities, #jobApplication, #paperHome{
     display: block;
     width:90%;
+}
+
+#interns {
+    display: block;
+    width:50%;
     margin: auto;
 }
 
@@ -127,7 +132,11 @@ nav a.active {
     margin:25px;
 }
 
-#michaelImg, #whyInvestImg, #earningsImg {
+#michaelImg, #whyInvestImg, #earningsImg, #careerbanner {
+    width:100%;
+}
+
+#internsImg {
     width:100%;
 }
 
