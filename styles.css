@@ -116,9 +116,9 @@ nav a.active {
     font-weight: bold;
 }
 
-#ceoStatement {
+#ceoStatement, #market, #overview, #whyInvest, #ourMission, #benefits, #opportunities, #jobApplication {
     display: block;
-    width:75%;
+    width:90%;
     margin: auto;
 }
 
@@ -127,16 +127,12 @@ nav a.active {
     margin:25px;
 }
 
-#michaelImg {
+#michaelImg, #whyInvestImg, #earningsImg {
     width:100%;
 }
 
-#whyInvestImg {
-    width: 100%;
-}
-
 /* Reference for button styling */
-#whyInvestButton {
+#whyInvestButton, #submitApplicationButton {
     border: none;
     background-color: #a50000;
     color:#ffffff;
