@@ -6,6 +6,7 @@
         - The HTML <form> element represents a document section containing interactive controls for submitting information.
         - In other words, it provides an area of your webpage to accept user inputted information and submit it to some backend server.
         - I used the form element for a job application section of my website.
+        - The form submission is processed by some script, usually linked by the action attribute.
 
 
 <input> element
@@ -17,8 +18,13 @@
         - The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. 
         - The <input> element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
         - Two of the attributes I will be presenting are related to the input element: type, required.
-        - 
-
+            type attribute:
+                - Type of form control
+                - A string specifying the type of control to render. For example, to create a checkbox, a value of checkbox is used. If omitted (or an unknown value is specified), the input type text is used, creating a plaintext input field.
+                - types used: text, email, tel, file, submit
+            required attribute:
+                - Boolean attribute
+                - indicates that the user must specify a value for the input before the owning form can be submitted.
 
 
 <button> element
@@ -28,3 +34,7 @@
     Notes:
         - The HTML <button> element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.
         - The third attribute I'm presenting is related to the button element: value.
+            value attribute:
+                - The value attribute specifies the initial value for a <button> in an HTML form.
+                - Defines the value associated with the button’s name when it’s submitted with the form data.
+                - If I were to tie this button to a form, then the value would be sent to the server, assuming the form has a backend script.
