@@ -133,14 +133,18 @@ nav a.active {
     width:100%;
 }
 
-/* Reference for button styling */
-#whyInvestButton, #submitApplicationButton {
+/* Reference for button styling https://www.w3schools.com/css/css3_buttons.asp */
+#whyInvestButton, #submitApplicationButton, #exampleSubmitButton {
     border: none;
     background-color: #a50000;
     color:#ffffff;
     padding: 15px 25px;
     text-align: center;
     font-size:15px;
+}
+
+#interestInvest {
+    text-align: center;
 }
 
 .headerImg {

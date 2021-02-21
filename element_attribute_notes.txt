@@ -1,0 +1,30 @@
+<form> element
+    References:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+        https://www.w3schools.com/html/html_form_elements.asp
+    Notes:
+        - The HTML <form> element represents a document section containing interactive controls for submitting information.
+        - In other words, it provides an area of your webpage to accept user inputted information and submit it to some backend server.
+        - I used the form element for a job application section of my website.
+
+
+<input> element
+    References:
+        https://www.w3schools.com/tags/tag_input.asp
+        https://www.w3schools.com/html/html_form_input_types.asp
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    Notes:
+        - The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. 
+        - The <input> element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
+        - Two of the attributes I will be presenting are related to the input element: type, required.
+        - 
+
+
+
+<button> element
+    References:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+        https://www.w3schools.com/tags/tag_button.asp
+    Notes:
+        - The HTML <button> element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.
+        - The third attribute I'm presenting is related to the button element: value.
