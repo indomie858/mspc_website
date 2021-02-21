@@ -85,13 +85,6 @@ nav a.active {
     margin-right:auto;
 }
 
-#homepageImg {
-    width:100%;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    padding-top:10px;
-}
-
 #forestImg {
     width:100%;
 }
@@ -148,6 +141,12 @@ nav a.active {
     padding: 15px 25px;
     text-align: center;
     font-size:15px;
+}
+
+.headerImg {
+    width:100%;
+    margin-top: 10px;
+    padding-top:10px;
 }
 
 .mspcImg {
