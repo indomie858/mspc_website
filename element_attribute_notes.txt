@@ -5,7 +5,7 @@
     Notes:
         - The HTML <form> element represents a document section containing interactive controls for submitting information.
         - In other words, it provides an area of your webpage to accept user inputted information and submit it to some backend server.
-        - I used the form element for a job application section of my website.
+        - I used the form element for a job application and a contact section.
         - The form submission is processed by some script, usually linked by the action attribute.
 
 
