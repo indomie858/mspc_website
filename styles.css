@@ -120,7 +120,7 @@ nav a.active {
     margin: auto;
 }
 
-#jobApplicationForm {
+#jobApplicationForm, #contactForm {
     width:100%;
     margin:25px;
 }
@@ -134,7 +134,7 @@ nav a.active {
 }
 
 /* Reference for button styling https://www.w3schools.com/css/css3_buttons.asp */
-#whyInvestButton, #submitApplicationButton, #exampleSubmitButton {
+#whyInvestButton, #submitApplicationButton, #exampleSubmitButton, #submitContactButton {
     border: none;
     background-color: #a50000;
     color:#ffffff;
@@ -176,7 +176,7 @@ nav a.active {
     width: 50%;
 }
 
-.jobApplicationInput {
+.jobApplicationInput, .contactInput {
     margin-bottom: 20px;
 }
 

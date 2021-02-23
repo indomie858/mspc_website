@@ -15,6 +15,7 @@
             <a href="about.html" title="About the Company">About Us</a>
             <a href="careers.html" title="Career Opportunities">Careers</a>
             <a href="invest.html" title="Investor Home">Invest</a>
+            <a href="#contactUs" title="Contact Us">Contact</a>
         </nav>
         <h1>Home</h1>
         <img src="images/mspc_homepage.jpg" id="homepageImg" alt="Michael Scott, Pam Beesly, and Ryan Howard standing together, looking around in their tiny office" class="headerImg"/>
@@ -100,6 +101,42 @@
         <div id="paperHome" class="bodycontent">
             <h2>Where Our Paper Comes From</h2>
             <img src="images/forest.jpeg" id="forestImg" alt="Tall trees in a forest with lots of leaves">
+        </div>
+        <div id="contactUs" class="bodycontent">
+            <h2>Contact Us</h2>
+            <!-- form element reference: https://www.w3schools.com/html/html_forms.asp -->
+            <!-- The HTML <form> element represents a document section containing interactive controls for submitting information. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+            <!-- I used the form element to make a contact form-->
+            <form id="contactForm">
+
+                <!-- input element reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+                <!-- input type attribute Reference: https://www.w3schools.com/html/html_form_input_types.asp -->
+                <!-- The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. -->
+
+                <!-- each input element is used to take input for different parts of the job application -->
+                <!-- input type "text" is a normal text input box; defines a single-line text input field -->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" class="contactInput" required /><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" class="contactInput" required /><br>
+                <!-- "required" attribute is a boolean attribute -->
+                <!-- when "required" is present, it specifies an input field that must be filled out before submitting the form-->
+
+                <!-- input type "email" is used for input fields that should contain an e-mail address. -->
+                <!-- Depending on browser support, the e-mail address can be automatically validated when submitted.-->
+                <label for="email">Email address:</label><br>
+                <input type="email" id="email" name="email" class="contactInput" required /><br>
+
+                <!-- textarea reference: https://www.w3schools.com/tags/tag_textarea.asp -->
+                <label for="essay">Message:</label><br>
+                <textarea id="essay" name="essay" rows="6" cols="50" wrap="hard" class="contactInput"
+                    required></textarea><br>
+
+                <!-- input type "submit" defines a button for submitting form data to a form-handler -->
+                <input type="submit" value="Submit" class="contactInput"
+                    id="submitContactButton" />
+
+            </form>
         </div>
     </main>
     <footer role="contentinfo">
