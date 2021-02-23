@@ -34,9 +34,14 @@ h3 {
     font-size: 20px;
 }
 
-main p, main li{
+main p, main li, th {
     font-size: 18px;
 }
+
+td {
+    font-size: 16px;
+}
+
 
 body {
     max-width:920px;
