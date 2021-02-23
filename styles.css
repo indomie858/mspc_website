@@ -138,10 +138,16 @@ nav a.active {
     border: none;
     background-color: #a50000;
     color:#ffffff;
-    padding: 15px 25px;
+    padding: 12px 20px;
     text-align: center;
     font-size:15px;
+    font-weight: bold;
 }
+
+#whyInvestButton:hover, #submitApplicationButton:hover, #exampleSubmitButton:hover, #submitContactButton:hover {
+    background-color: #cf0404;
+}
+
 
 #interestInvest {
     text-align: center;
